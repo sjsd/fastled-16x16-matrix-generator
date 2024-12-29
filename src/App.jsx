@@ -64,9 +64,9 @@ function App() {
                     
                     <div 
                         key={index}
-                        className="aspect-square border border-gray-300 flex items-center text-center text-gray-300 cursor-pointer transition-all"
+                        className="aspect-square border border-gray-300 flex items-center text-center text-gray-400 cursor-pointer transition-all"
                         style={{
-                          backgroundColor: result !== undefined ? 'rgb(' + result.color.r + ',' + result.color.g + ',' + result.color.b + ')' : '#ffffff'
+                          backgroundColor: result !== undefined ? 'rgb(' + result.color.r + ',' + result.color.g + ',' + result.color.b + ')' : '#f2f2f2'
                         }}
                         onClick={() => handleCheckboxChange({num: num, color: colorRgb})}
                     >
