@@ -17,7 +17,7 @@ const Header = () => {
                 </a>
             </li>
             <li>
-                <a href="https://github.com/sjsd/fastled-16x16-matrix-generator" title="FastLED 16x16 matrix generator" target="_blank" className="text-blue-600 underline hover:no-underline">
+                <a href="https://github.com/sjsd/fastled-16x16-matrix-generator?tab=readme-ov-file#ino-code" title="FastLED 16x16 matrix generator ino code" target="_blank" className="text-blue-600 underline hover:no-underline">
                     Arduino code
                 </a>
             </li>
