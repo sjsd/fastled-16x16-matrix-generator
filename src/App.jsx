@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Header from './components/header'
 import './App.css'
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
 
   return (
     <div className="container mx-auto">
+      <Header />
       <div className="flex flex-row items-start  space-x-10">
         <div className="grid w-[800px] grid-cols-[repeat(16,_minmax(0,_1fr))]">
           {groupsOf16.map((el, index) => {
